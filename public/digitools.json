@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": {
+      "f1": "AI blog generator",
+      "f2": "Marketing copy templates",
+      "f3": "SEO optimization",
+      "f4": "Multi-language support"
+    },
+    "image": "https://i.ibb.co.com/S4Qb9yBD/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access a huge collection of ready-made design templates for web, social media, and branding.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": {
+      "f1": "500+ templates",
+      "f2": "Figma & PSD files",
+      "f3": "Easy customization",
+      "f4": "Commercial use license"
+    },
+    "image": "https://i.ibb.co.com/vgFSCqJ/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Download high-quality stock images, videos, and graphics for your projects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": {
+      "f1": "Unlimited downloads",
+      "f2": "HD & 4K assets",
+      "f3": "Royalty-free license",
+      "f4": "Daily new uploads"
+    },
+    "image": "https://i.ibb.co.com/CK6LQXB3/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and boost productivity with smart tools and workflows.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": {
+      "f1": "Workflow automation",
+      "f2": "Task scheduling",
+      "f3": "Integration support",
+      "f4": "Time-saving tools"
+    },
+    "image": "https://i.ibb.co.com/mVSWrS62/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and AI suggestions.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": {
+      "f1": "ATS-friendly templates",
+      "f2": "AI suggestions",
+      "f3": "Export to PDF",
+      "f4": "Live preview"
+    },
+    "image": "https://i.ibb.co.com/35H4QqNS/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Everything you need to create engaging social media posts and campaigns.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": {
+      "f1": "Post templates",
+      "f2": "Caption generator",
+      "f3": "Hashtag suggestions",
+      "f4": "Content calendar"
+    },
+    "image": "https://i.ibb.co.com/WvyqBJ8V/social-media.png"
+  }
+]
