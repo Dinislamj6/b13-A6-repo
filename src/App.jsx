@@ -10,6 +10,7 @@ import Footer from './Component/Footer'
 import Star from './Component/Star'
 import Steps from './Component/Steps'
 import Pricing from './Component/Pricing'
+import WorkFlow from './Component/WorkFlow'
 
 
 const getDigiTools = async () => {
@@ -42,7 +43,7 @@ const [carts ,setCarts] = useState([])
 
       <Steps></Steps>
       <Pricing></Pricing>
-
+      <WorkFlow></WorkFlow>
       <Footer></Footer>
     </>
   )

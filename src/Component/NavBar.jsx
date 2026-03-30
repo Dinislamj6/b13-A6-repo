@@ -35,7 +35,7 @@ const NavBar = ({carts}) => {
                 <div className="navbar-end gap-5">
                    <div>
                    {
-                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 rounded-full text-center text-white px-2'>
+                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 right-46 rounded-full text-center text-white px-2'>
                         {`${carts.length}`}
                     </div>
                    }
