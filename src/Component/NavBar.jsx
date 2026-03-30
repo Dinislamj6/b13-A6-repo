@@ -1,4 +1,5 @@
 import React from 'react';
+import cartImg from "../assets/products/shopping-cart.png"
 
 const NavBar = () => {
     return (
@@ -30,7 +31,11 @@ const NavBar = () => {
                 </div>
              
                 <div className="navbar-end gap-5">
-                    <a className="btn bg-[#4f39f6] rounded-full text-white">Get Started</a>
+                   <div>
+                     <img src={cartImg} alt="" />
+                   </div>
+                    <button>Login</button>
+                    <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>
             </div>
         </div>
