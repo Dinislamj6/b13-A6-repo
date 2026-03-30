@@ -9,6 +9,7 @@ import Tabs from './Component/Tabs'
 import Footer from './Component/Footer'
 import Star from './Component/Star'
 import Steps from './Component/Steps'
+import Pricing from './Component/Pricing'
 
 
 const getDigiTools = async () => {
@@ -40,6 +41,7 @@ const [carts ,setCarts] = useState([])
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} activeTab={activeTab} setActiveTab={setActiveTab}></Cart>}
 
       <Steps></Steps>
+      <Pricing></Pricing>
 
       <Footer></Footer>
     </>
