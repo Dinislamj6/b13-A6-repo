@@ -8,7 +8,7 @@ const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
  
     const handelPayment = () => {
         setCarts([])
-        toast.success("Payment successful!")
+        toast.success("Checkout successful!")
     }
     const handelRemove = (item) => {
        const filteredArray = carts.filter(c => c.id != item.id )

@@ -11,7 +11,7 @@ const Pricing = () => {
 
             {/* cart */}
             <div className='grid p-10 gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                <div className="card bg-base-100 shadow-lg  border border-zinc-100">
+                <div className="card bg-base-100 shadow-lg shadow-blue-400/50   border border-zinc-100">
                     <div className="card-body">
                         <div className="">
                             <h2 className="text-3xl font-bold">Starter</h2>
@@ -46,7 +46,7 @@ const Pricing = () => {
                          
 
                          
-                <div className="card bg-base-100 shadow-lg  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white  border border-zinc-100">
+                <div className="card bg-base-100 shadow-lg shadow-blue-400/50  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white  border border-zinc-100">
                         <div className='flex justify-center'>
                              <span className="badge p-3 rounded-full text-[#BB4D00] bg-amber-200">Most Popular</span>
                         </div>
@@ -91,7 +91,7 @@ const Pricing = () => {
                 </div>
 
 
-                <div className="card  bg-base-100 shadow-lg border border-zinc-100">
+                <div className="card  bg-base-100 shadow-lg border shadow-blue-400/50  border-zinc-100">
                     <div className="card-body">
                         <div className="">
                             <h2 className="text-3xl font-bold">Enterprise</h2>
