@@ -1,7 +1,7 @@
 import React from 'react';
 import cartImg from "../assets/products/shopping-cart.png"
 
-const NavBar = () => {
+const NavBar = ({carts}) => {
     return (
         <div className='sticky top-0 bg-zinc-100 border border-zinc-200'>
             <div className="navbar ">
@@ -32,7 +32,12 @@ const NavBar = () => {
              
                 <div className="navbar-end gap-5">
                    <div>
-                     <img src={cartImg} alt="" />
+                   {
+                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 rounded-full text-center px-2'>
+                        {`${carts.length}`}
+                    </div>
+                   }
+                     <img  className='h-5 w-5 relative' src={cartImg} alt="" />
                    </div>
                     <button>Login</button>
                     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>

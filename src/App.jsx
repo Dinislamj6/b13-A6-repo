@@ -23,7 +23,7 @@ console.log(carts);
   
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar carts={carts}></NavBar>
       <Banner></Banner>
       <Star></Star>
       
