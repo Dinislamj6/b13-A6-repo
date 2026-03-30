@@ -3,7 +3,7 @@ import cartImg from "../assets/products/shopping-cart.png"
 
 const NavBar = ({carts}) => {
     return (
-        <div className='sticky top-0 bg-zinc-100 border border-zinc-200'>
+        <div className='sticky top-0 shadow-2xl bg-zinc-100 border border-zinc-200'>
             <div className="navbar ">
                 <div className="navbar-start">
                     <div className="flex items-center gap-1 font-bold text-xl">
@@ -35,7 +35,7 @@ const NavBar = ({carts}) => {
                 <div className="navbar-end gap-5">
                    <div>
                    {
-                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 rounded-full text-center px-2'>
+                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 rounded-full text-center text-white px-2'>
                         {`${carts.length}`}
                     </div>
                    }

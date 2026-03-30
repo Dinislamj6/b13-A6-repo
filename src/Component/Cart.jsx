@@ -20,7 +20,7 @@ const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
     return (
         <div >
             <Tabs carts={carts} setCarts={setCarts} activeTab={activeTab} setActiveTab={setActiveTab}></Tabs>
-           <div className=' p-10 mb-5 mt-5  max-w-7xl mx-auto border border-zinc-300'>
+           <div className=' p-10 mb-5 mt-5  max-w-7xl mx-auto border border-zinc-200 shadow-xl'>
              <h2 className='font-bold text-xl'>Your Cart</h2>
 
             {

@@ -8,6 +8,7 @@ import NavBar from './Component/NavBar'
 import Tabs from './Component/Tabs'
 import Footer from './Component/Footer'
 import Star from './Component/Star'
+import Steps from './Component/Steps'
 
 
 const getDigiTools = async () => {
@@ -37,6 +38,8 @@ const [carts ,setCarts] = useState([])
        </div> */}
      {activeTab === "products" && <DigiTools activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} setCarts={setCarts} digiToolsPromise={digiToolsPromise}></DigiTools>}
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} activeTab={activeTab} setActiveTab={setActiveTab}></Cart>}
+
+      <Steps></Steps>
 
       <Footer></Footer>
     </>

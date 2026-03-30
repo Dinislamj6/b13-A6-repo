@@ -16,7 +16,7 @@ const DigiToolsCart = ({ items, carts, setCarts }) => {
     }
     return (
         <div>
-            <div className='rounded-lg border border-zinc-200 shadow-2xl p-5'>
+            <div className='rounded-lg border border-zinc-200 shadow-xl p-5'>
                 <div className='flex justify-between'>
                     <button className='btn rounded-full'>
                         <img className='h-4 w-4 object-contain' src={items.image} alt="" />
