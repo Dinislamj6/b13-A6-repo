@@ -16,12 +16,12 @@ const DigiToolsCart = ({ items, carts, setCarts }) => {
     }
     return (
         <div>
-            <div className='shadow-lg rounded-lg border border-zinc-200 shadow-2xl p-5'>
+            <div className='rounded-lg border border-zinc-200 shadow-2xl p-5'>
                 <div className='flex justify-between'>
                     <button className='btn rounded-full'>
                         <img className='h-4 w-4 object-contain' src={items.image} alt="" />
                     </button>
-                    <button className={`rounded-full px-3 ${items.tag === "best seller"? "bg-yellow-200":"bg-blue-300"}`}>{items.tag}</button>
+                    <button className={`rounded-full px-3 ${items.tag === "best seller"? "bg-yellow-200":`${items.tag == "new" ? "bg-green-300":"bg-blue-300"}`}`}>{items.tag}</button>
                 </div>
 
                 <div className='space-y-3'>

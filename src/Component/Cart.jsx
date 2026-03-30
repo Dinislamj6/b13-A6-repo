@@ -1,10 +1,11 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 import { toast } from 'react-toastify';
+import Tabs from './Tabs';
 // import cartImg from "../assets/products/shopping-cart.png"
-const Cart = ({ carts,setCarts }) => {
+const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
     const totalPrice = carts.reduce((sum,item) => sum + item.price ,0)
-
+ 
     const handelPayment = () => {
         setCarts([])
         toast.success("Payment successful!")
@@ -17,8 +18,10 @@ const Cart = ({ carts,setCarts }) => {
 
     }
     return (
-        <div className=' p-10 max-w-7xl mx-auto'>
-            <h2 className='font-bold text-xl'>Your Cart</h2>
+        <div >
+            <Tabs carts={carts} setCarts={setCarts} activeTab={activeTab} setActiveTab={setActiveTab}></Tabs>
+           <div className=' p-10 mb-5 mt-5  max-w-7xl mx-auto border border-zinc-300'>
+             <h2 className='font-bold text-xl'>Your Cart</h2>
 
             {
                 carts.length === 0 ?   <div>
@@ -59,6 +62,7 @@ const Cart = ({ carts,setCarts }) => {
             </>
 
             }
+           </div>
           
 
         </div>

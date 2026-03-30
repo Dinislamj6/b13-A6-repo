@@ -30,6 +30,8 @@ const NavBar = ({carts}) => {
                     </ul>
                 </div>
              
+
+             
                 <div className="navbar-end gap-5">
                    <div>
                    {
