@@ -5,6 +5,11 @@ const DigiToolsCart = ({items,carts,setCarts}) => {
     const [buyNow,setBuyNow] = useState(false)
     const handelBuyNow = () => {
         setBuyNow(true)
+        const isFound = carts.find(item => item.id === items.id)
+        if(isFound){
+            toast.error("This Item already in cart!")
+            return
+        }
         setCarts([...carts,items])
         toast.success("Item added to cart!")
     }

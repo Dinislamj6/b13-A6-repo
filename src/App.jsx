@@ -6,6 +6,7 @@ import Cart from './Component/Cart'
 import DigiTools from './Component/DigiTools'
 import NavBar from './Component/NavBar'
 import Tabs from './Component/Tabs'
+import Footer from './Component/Footer'
 
 const getDigiTools = async () => {
   const res = await fetch("../public/digitools.json")
@@ -33,6 +34,8 @@ console.log(carts);
        </div>
      {activeTab === "products" && <DigiTools carts={carts} setCarts={setCarts} digiToolsPromise={digiToolsPromise}></DigiTools>}
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
+
+      <Footer></Footer>
     </>
   )
 }

@@ -17,7 +17,7 @@ const Cart = ({ carts,setCarts }) => {
 
     }
     return (
-        <div className=' p-10'>
+        <div className=' p-10 max-w-7xl mx-auto'>
             <h2 className='font-bold text-xl'>Your Cart</h2>
 
             {
