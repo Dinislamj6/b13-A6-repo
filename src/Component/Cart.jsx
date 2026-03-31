@@ -2,7 +2,7 @@ import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 import { toast } from 'react-toastify';
 import Tabs from './Tabs';
-// import cartImg from "../assets/products/shopping-cart.png"
+
 const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
     const totalPrice = carts.reduce((sum,item) => sum + item.price ,0)
  
@@ -52,7 +52,7 @@ const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
           </div>
 
           {/* total */}
-          <div className='flex justify-between bg-white border border-zinc-200 p-5 rounded-lg mt-5 text-2xl font-bold'>
+          <div className='flex justify-between lg:text-black text-black bg-white border border-zinc-200 p-5 rounded-lg mt-5 text-2xl font-bold'>
               <div>Total:</div>
               <div>{totalPrice}</div>
           </div>

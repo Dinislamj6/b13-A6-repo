@@ -1,7 +1,7 @@
 import React from 'react';
 import cartImg from "../assets/products/shopping-cart.png"
 
-const NavBar = ({carts}) => {
+const NavBar = ({carts,setActiveTab}) => {
     return (
         <div className='sticky top-0 shadow-2xl lg:z-20 z-20 bg-zinc-100 border border-zinc-200'>
             <div className="navbar ">
@@ -39,7 +39,7 @@ const NavBar = ({carts}) => {
                         {`${carts.length}`}
                     </div>
                    }
-                     <img  className='h-5 w-5 relative ' src={cartImg} alt="" />
+                     <img onClick={() =>setActiveTab("cart")}  className='h-5 w-5 relative ' src={cartImg} alt="" />
                    </div>
                     <button className='hidden sm:block'>Login</button>
                     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>

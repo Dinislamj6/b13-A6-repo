@@ -26,7 +26,7 @@ const [carts ,setCarts] = useState([])
   
   return (
     <>
-      <NavBar carts={carts}></NavBar>
+      <NavBar carts={carts} setActiveTab={setActiveTab}></NavBar>
       <Banner></Banner>
       <Star></Star>
      {activeTab === "products" && <DigiTools activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} setCarts={setCarts} digiToolsPromise={digiToolsPromise}></DigiTools>}

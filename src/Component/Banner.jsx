@@ -14,10 +14,10 @@ const Banner = () => {
                             <img src={logoImg} alt="logo" /> New: AI-Powered Tools Available
                         </div>
 
-                        <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-black">
+                        <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter lg:text-black text-[#9514FA]">
                             Supercharge Your
                             <br />
-                            <span className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-black">
+                            <span className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter lg:text-black text-[#9514FA]">
                                 Digital Workflow
                             </span>
                         </h1>
