@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="bg-[#101727] border-t border-red-900/50 pt-16 pb-10">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-15 gap-12">
-                    {/* Logo & Description */}
+                    {/*Description */}
                     <div className="md:col-span-5">
                         <div className="flex items-center gap-3 mb-6">
             
@@ -24,7 +24,7 @@ const Footer = () => {
 
                     </div>
 
-                    {/* Quick Links */}
+                    {/* Links */}
                     <div className="md:col-span-2">
                         <h3 className="text-white font-bold mb-6 text-xl">Product</h3>
                         <ul className="space-y-4 text-white">

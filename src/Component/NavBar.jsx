@@ -3,7 +3,7 @@ import cartImg from "../assets/products/shopping-cart.png"
 
 const NavBar = ({carts}) => {
     return (
-        <div className='sticky top-0 shadow-2xl bg-zinc-100 border border-zinc-200'>
+        <div className='sticky top-0 shadow-2xl lg:z-20 z-20 bg-zinc-100 border border-zinc-200'>
             <div className="navbar ">
                 <div className="navbar-start">
                     <div className="flex items-center gap-1 font-bold text-xl">
@@ -35,13 +35,13 @@ const NavBar = ({carts}) => {
                 <div className="navbar-end gap-5">
                    <div>
                    {
-                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 right-46 rounded-full text-center text-white px-2'>
+                    carts.length === 0 ? null : <div className='bg-red-500 absolute top-2 lg:right-46 right-[120px]  rounded-full text-center text-white px-2'>
                         {`${carts.length}`}
                     </div>
                    }
-                     <img  className='h-5 w-5 relative' src={cartImg} alt="" />
+                     <img  className='h-5 w-5 relative ' src={cartImg} alt="" />
                    </div>
-                    <button>Login</button>
+                    <button className='hidden sm:block'>Login</button>
                     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>
             </div>

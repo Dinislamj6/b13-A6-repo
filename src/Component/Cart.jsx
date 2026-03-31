@@ -52,7 +52,7 @@ const Cart = ({ carts,setCarts,activeTab,setActiveTab }) => {
           </div>
 
           {/* total */}
-          <div className='flex justify-between bg-zinc-200 p-5 rounded-lg mt-5 text-2xl font-bold'>
+          <div className='flex justify-between bg-white border border-zinc-200 p-5 rounded-lg mt-5 text-2xl font-bold'>
               <div>Total:</div>
               <div>{totalPrice}</div>
           </div>
