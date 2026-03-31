@@ -20,16 +20,16 @@ const getDigiTools = async () => {
 const digiToolsPromise = getDigiTools()
 function App() {
 
-const [activeTab,setActiveTab] = useState("products")
-const [carts ,setCarts] = useState([])
+  const [activeTab, setActiveTab] = useState("products")
+  const [carts, setCarts] = useState([])
 
-  
+
   return (
     <>
       <NavBar carts={carts} setActiveTab={setActiveTab}></NavBar>
       <Banner></Banner>
       <Star></Star>
-     {activeTab === "products" && <DigiTools activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} setCarts={setCarts} digiToolsPromise={digiToolsPromise}></DigiTools>}
+      {activeTab === "products" && <DigiTools activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} setCarts={setCarts} digiToolsPromise={digiToolsPromise}></DigiTools>}
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} activeTab={activeTab} setActiveTab={setActiveTab}></Cart>}
 
       <Steps></Steps>

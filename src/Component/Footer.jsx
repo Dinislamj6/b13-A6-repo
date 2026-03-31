@@ -12,9 +12,9 @@ const Footer = () => {
                     {/*Description */}
                     <div className="md:col-span-5">
                         <div className="flex items-center gap-3 mb-6">
-            
+
                             <h2 className="text-3xl font-bold tracking-tighter text-white">
-                               DigiTools
+                                DigiTools
                             </h2>
                         </div>
 
@@ -30,22 +30,22 @@ const Footer = () => {
                         <ul className="space-y-4 text-white">
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                 Features
+                                    Features
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                  Pricing
+                                    Pricing
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                  Templates
+                                    Templates
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                 Integrations
+                                    Integrations
                                 </a>
                             </li>
                         </ul>
@@ -82,22 +82,22 @@ const Footer = () => {
                         <ul className="space-y-4 text-white">
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                   Documentation
+                                    Documentation
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                  Help Center
+                                    Help Center
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                 Community
+                                    Community
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                Contact
+                                    Contact
                                 </a>
                             </li>
                         </ul>
@@ -106,13 +106,13 @@ const Footer = () => {
                         <h3 className="text-white font-fold mb-6 text-xl">Social Links</h3>
                         <ul className="space-x-4 flex text-white">
                             <li>
-                              <img className='bg-white'  src={instagram} alt="instagram" />
+                                <img className='bg-white' src={instagram} alt="instagram" />
                             </li>
                             <li>
-                               <img className='bg-white' src={facebook} alt="facebook" />
+                                <img className='bg-white' src={facebook} alt="facebook" />
                             </li>
                             <li>
-                               <img className='bg-white' src={xImg} alt="" />
+                                <img className='bg-white' src={xImg} alt="" />
                             </li>
                         </ul>
                     </div>

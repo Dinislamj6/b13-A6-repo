@@ -3,7 +3,7 @@ import React from 'react';
 const Star = () => {
     return (
         <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] mt-10 '>
-            <div className='flex justify-around p-10 items-center '>
+            <div className='flex justify-center gap-5 p-8 items-center '>
                 <div className='space-y-4'>
                     <h2 className='text-3xl font-bold text-white'>50K+</h2>
                     <p className='text-white'>Active Users</p>
@@ -17,7 +17,7 @@ const Star = () => {
                     <p className='text-white'>Premium Tools</p>
                 </div>
 
-                 <div class="inline-block h-30 w-px bg-gray-400"></div>
+                <div class="inline-block h-30 w-px bg-gray-400"></div>
 
                 <div className='space-y-4 '>
                     <h2 className='text-3xl font-bold text-white'>4.9</h2>

@@ -28,28 +28,27 @@ const Banner = () => {
                             Explore Products
 
                         </p>
-                         {/* image */}
+                        {/* image */}
                         <div className="flex flex-wrap gap-4 pt-4">
                             <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA]  px-2 py-2 rounded-full font-semibold  shadow-xl shadow-blue-500/30   text-white">
-                               Explore Products
-                                {/* <span className="group-hover:translate-x-1 transition">→</span> */}
+                                Explore Products
                             </button>
-                            <button className='btn text-[#9514FA] shadow-blue-500/30 border-blue-300  px-4 py-4 rounded-full font-bold  shadow-xl shadow-blue-500/30'>
+                            <button className='btn text-[#9514FA] shadow-blue-500/30 border-blue-300  px-4 py-4 rounded-full font-bold  shadow-xl'>
                                 <span><img src={playImg} alt="" /></span>
                                 Watch Demo
-                                </button>
+                            </button>
                         </div>
 
-        
+
                     </div>
 
-                 
+
                     <div className="relative flex justify-center lg:justify-end">
                         <div className="relative">
                             <img
                                 className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl"
-                            src={bannerImg}
-                            alt="banner image"
+                                src={bannerImg}
+                                alt="banner image"
                             />
                         </div>
                     </div>

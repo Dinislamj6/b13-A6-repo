@@ -16,12 +16,13 @@ const DigiToolsCart = ({ items, carts, setCarts }) => {
     }
     return (
         <div>
-            <div className='rounded-lg border border-zinc-200 shadow-xl p-5'>
+            <div className='rounded-lg border border-zinc-200 shadow-xl p-5
+            transition delay-50 duration-300 ease-in-out hover:-translate-y-2 hover:scale-100'>
                 <div className='flex justify-between'>
                     <button className='btn rounded-full'>
                         <img className='h-4 w-4 object-contain' src={items.image} alt="" />
                     </button>
-                    <button className={`rounded-full px-3 ${items.tag === "best seller"? "bg-yellow-200 lg:text-black text-black":`${items.tag == "new" ? "bg-green-300 lg:text-black text-black":"bg-blue-200 lg:text-black text-black"}`}`}>{items.tag}</button>
+                    <button className={`rounded-full px-3 ${items.tag === "best seller"? "bg-yellow-200 lg:text-yellow-600 text-yellow-600":`${items.tag == "new" ? "bg-green-300 lg:text-green-600 text-green-600":"bg-blue-200 lg:text-blue-600 text-blue-600"}`}`}>{items.tag}</button>
                 </div>
 
                 <div className='space-y-3'>
